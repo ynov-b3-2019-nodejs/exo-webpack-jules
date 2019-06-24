@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ynov-b3-2019-nodejs/exo-webpack-jules/issues"
   },
-  "homepage": "https://github.com/ynov-b3-2019-nodejs/exo-webpack-jules#readme"
+  "homepage": "https://github.com/ynov-b3-2019-nodejs/exo-webpack-jules#readme",
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  }
 }
