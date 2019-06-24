@@ -1,0 +1,23 @@
+{
+  "name": "exo-webpack-jules",
+  "version": "1.0.0",
+  "description": "Rajouter la config webpack et babel pour pouvoir faire tourner correctement le projet. Il y a du scss, des images, du jsx, et de la syntaxe es6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynov-b3-2019-nodejs/exo-webpack-jules.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel"
+  ],
+  "author": "Jules LAURENT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynov-b3-2019-nodejs/exo-webpack-jules/issues"
+  },
+  "homepage": "https://github.com/ynov-b3-2019-nodejs/exo-webpack-jules#readme"
+}
