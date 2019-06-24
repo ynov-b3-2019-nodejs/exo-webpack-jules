@@ -34,3 +34,6 @@ Launch development server :
 ```
 npm start
 ```
+
+## Caveats 
+Not yet optimized for production. 
