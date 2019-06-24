@@ -1,4 +1,6 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackRootPlugin = require('html-webpack-root-plugin');
 
 module.exports = {
     entry: './src/index.jsx',
@@ -6,6 +8,11 @@ module.exports = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist')
     },
+    devServer: {
+        contentBase: './dist',
+        historyApiFallback: true
+    },
+    mode: "development",
     module: {
         rules: [
             {
@@ -37,6 +44,14 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        // new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
+        new HtmlWebpackPlugin({
+            title: 'Development',
+        }),
+        new HtmlWebpackRootPlugin('app')
+
+    ],
     resolve: {
         modules: ["node_modules"],
         extensions: ['*','.js','.jsx']
