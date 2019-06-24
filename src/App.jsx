@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 
 import reactLogo from './assets/React-icon.png';
 import { Home } from './Home';

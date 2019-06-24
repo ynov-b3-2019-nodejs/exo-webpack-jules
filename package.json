@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/ynov-b3-2019-nodejs/exo-webpack-jules#readme",
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "webpack": "^4.35.0",
     "webpack-cli": "^3.3.5"
-  }
+  },
+  "dependencies": {}
 }
