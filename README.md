@@ -19,3 +19,21 @@ Le 20/20 n'est pas compliqué à avoir.
 Bon courage !
 
 Mathieu.
+
+
+_____________________________________
+
+## Usage 
+
+Build app with webpack : 
+```
+npm run build
+```
+
+Launch development server : 
+```
+npm start
+```
+
+## Caveats 
+Not yet optimized for production. 
